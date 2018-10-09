@@ -4,9 +4,9 @@ from utils import *
 camera = PiCamera()
 image_name = "photo.png"
 max_size = (128, 128)
-config_path = "config.json" 
+config_path = "./config.json" 
 
-if !configExists(config_path):
+if not configExists(config_path):
     print("Config file not found. Creating...")
     createConfig(config_path)
 print("Using config file.")
