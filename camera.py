@@ -10,6 +10,7 @@ if not configExists(config_path):
     print("Config file not found. Creating...")
     createConfig(config_path)
 print("Using config file.")
+averages = readConfig(config_path)
 
 print("Taking photo...")
 camera.capture(image_name)
@@ -22,4 +23,5 @@ print("Scaled photo dimensions: ", width, height)
 for x in range(width):
     for y in range(height):
         r, g, b, t = loaded_image[x, y]
-        findBestMatch(r, g, b)
+        best_match = findBestMatch(r, g, b, averages)
+        #print(best_match)

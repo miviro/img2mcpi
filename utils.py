@@ -1,23 +1,38 @@
 import os.path
 import re
 import json
+import math
 from PIL import Image
-
-averages = []
 
 def scaleImageTo(name, max_size):
     raw_image = Image.open(name)
     raw_image.thumbnail(max_size, Image.ANTIALIAS)
     return raw_image
 
-def findBestMatch(r, g, b):
-    best_match = 
-    pass
+def findBestMatch(r, g, b, averages):
+    best_match_id = ""
+    best_diff = 0
+    curr_diff = 0
+    rdiff, gdiff, bdiff = 0, 0, 0
+    
+    print(averages)
+    for i in averages:
+        print(i["rgb"][0])
+        rdiff = abs(i["rgb"][0] - r)
+        gdiff = abs(i["rgb"][1] - g)
+        bdiff = abs(i["rgb"][2] - b)
+        curr_diff = rdiff + gdiff + bdiff
+        if curr_diff < best_diff:
+            best_diff = curr_diff
+            best_match_id = i["id"]
+    
+    return best_match_id
 
 def configExists(path):
     return os.path.isfile(path)
 
 def createConfig(path):
+    cfg = []
     with open("materials.txt", "r") as materials:
         for line in materials:
             image_name, true_id = getLineProps(line)
@@ -28,11 +43,15 @@ def createConfig(path):
             r, g, b = getAverageColor(width, height, pic)
             
             block_info = {"name": image_name, "id": true_id, "rgb": (int(r), int(g), int(b))}
-            averages.append(block_info)
+            cfg.append(block_info)
             
     with open(path, "w") as file:
         file.write(json.dumps(averages))
-            
+
+def readConfig(path):
+    with open(path, "r") as conf:
+        return json.loads(conf.read())
+        
 def getLineProps(line):
     line_values = line.split(",")
     image_name = re.findall("(?<=,)[^,]*\.png", line)[0]
@@ -40,7 +59,7 @@ def getLineProps(line):
     true_id = ""
     primary_id = line_values[3]
     secondary_id = line_values[4]
-    if secondary_id == "0":
+    if secondary_id == "-1":
         true_id = primary_id
     else:
         true_id = primary_id+":"+secondary_id
@@ -49,10 +68,6 @@ def getLineProps(line):
 
 
 def getAverageColor(x, y, image):
-    """ Returns a 3-tuple containing the RGB value of the average color of the
-    given square bounded area of length = n whose origin (top left corner) 
-    is (x, y) in the given image"""
- 
     r, g, b = 0, 0, 0
     count = 0
     for s in range(x):
