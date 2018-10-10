@@ -1,21 +1,23 @@
-from PIL import Image
 import os.path
 import re
+import json
+from PIL import Image
+
+averages = []
 
 def scaleImageTo(name, max_size):
     raw_image = Image.open(name)
     raw_image.thumbnail(max_size, Image.ANTIALIAS)
     return raw_image
 
-def findBestMatch(r, g, b, t):
+def findBestMatch(r, g, b):
+    best_match = 
     pass
 
 def configExists(path):
     return os.path.isfile(path)
 
 def createConfig(path):
-    averages = []
-    
     with open("materials.txt", "r") as materials:
         for line in materials:
             image_name, true_id = getLineProps(line)
@@ -25,9 +27,11 @@ def createConfig(path):
             width, height = image.size
             r, g, b = getAverageColor(width, height, pic)
             
-            block_info = {"name": image_name, "id": true_id, "rgb": (r, g, b)}
+            block_info = {"name": image_name, "id": true_id, "rgb": (int(r), int(g), int(b))}
             averages.append(block_info)
-    print(averages)
+            
+    with open(path, "w") as file:
+        file.write(json.dumps(averages))
             
 def getLineProps(line):
     line_values = line.split(",")

@@ -22,4 +22,4 @@ print("Scaled photo dimensions: ", width, height)
 for x in range(width):
     for y in range(height):
         r, g, b, t = loaded_image[x, y]
-        findBestMatch(r, g, b, t)
+        findBestMatch(r, g, b)
