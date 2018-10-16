@@ -10,19 +10,18 @@ def scaleImageTo(name, max_size):
     return raw_image
 
 def findBestMatch(r, g, b, averages):
-    best_match_id = ""
-    best_diff = 0
+    best_match_id = "undefined"
+    best_diff = 255 + 255 + 255
     curr_diff = 0
     rdiff, gdiff, bdiff = 0, 0, 0
     
-    print(averages)
     for i in averages:
-        print(i["rgb"][0])
         rdiff = abs(i["rgb"][0] - r)
         gdiff = abs(i["rgb"][1] - g)
         bdiff = abs(i["rgb"][2] - b)
         curr_diff = rdiff + gdiff + bdiff
-        if curr_diff < best_diff:
+        
+        if best_diff > curr_diff:
             best_diff = curr_diff
             best_match_id = i["id"]
     

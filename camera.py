@@ -20,8 +20,9 @@ scaled_image = scaleImageTo(image_name, max_size)
 loaded_image = scaled_image.load()
 width, height = scaled_image.size
 print("Scaled photo dimensions: ", width, height)
+print("Getting optimal blocks...")
 for x in range(width):
     for y in range(height):
         r, g, b, t = loaded_image[x, y]
         best_match = findBestMatch(r, g, b, averages)
-        #print(best_match)
+        print(best_match)
