@@ -25,7 +25,9 @@ def findBestMatch(r, g, b, averages):
             best_diff = curr_diff
             best_match_id = i["id"]
     
-    return best_match_id
+    print(best_match_id.split(":"))
+    
+    return best_match_id.split(":")
 
 def configExists(path):
     return os.path.isfile(path)
