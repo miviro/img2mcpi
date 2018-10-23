@@ -47,7 +47,7 @@ def createConfig(path):
             cfg.append(block_info)
             
     with open(path, "w") as file:
-        file.write(json.dumps(averages))
+        file.write(json.dumps(cfg))
 
 def readConfig(path):
     with open(path, "r") as conf:

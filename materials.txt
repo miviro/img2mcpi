@@ -1,127 +1,52 @@
-Acacia Wood,Rare,false,162,0,log_acacia.png,true,log_acacia_top.png
-Acacia Wood Plank,Common,true,5,4,planks_acacia.png,false
-Andesite,Common,true,1,5,stone_andesite.png,false
-Bedrock,Special,false,7,-1,bedrock.png,false
-Birch Wood,Rare,false,17,2,log_birch.png,true,log_birch_top.png
-Birch Wood Plank,Common,true,5,2,planks_birch.png,false
-Black Clay,Clay,true,159,15,hardened_clay_stained_black.png,false
-Black Wool,Wool,true,35,15,wool_colored_black.png,false
-Black Stained Glass,Special,false,95,15,glass_black.png,false
-Blue Clay,Clay,true,159,11,hardened_clay_stained_blue.png,false
-Blue Wool,Wool,true,35,11,wool_colored_blue.png,false
-Blue Stained Glass,Special,false,95,11,glass_blue.png,false
-Bookshelf,Unusual,false,47,-1,bookshelf.png,true,planks_oak.png
-Bricks,Rare,false,45,-1,brick.png,false
-Brown Clay,Clay,true,159,12,hardened_clay_stained_brown.png,false
-Brown Wool,Wool,true,35,12,wool_colored_brown.png,false
-Brown Stained Glass,Special,false,95,12,glass_brown.png,false
-Chiseled Quartz,Rare,false,155,1,quartz_block_chiseled.png,false
-Chiseled Red Sandstone,Common,true,179,1,red_sandstone_carved.png,true,red_sandstone_top.png
-Chiseled Sandstone,Common,true,24,1,sandstone_carved.png,true,sandstone_top.png
-Chiseled Stone Brick,Rare,false,98,3,stonebrick_carved.png,false
-Clay Block,Clay,false,82,-1,clay.png,false
-Coal Ore,Special,false,16,-1,coal_ore.png,false
-Coal Block,Unusual,false,173,-1,coal_block.png,false
-Coarse Dirt,Unusual,false,3,1,coarse_dirt.png,false
 Cobblestone,Common,true,4,-1,cobblestone.png,false
-Cracked Stone Brick,Rare,false,98,2,stonebrick_cracked.png,false
-Crafting Table,Unusual,false,58,-1,crafting_table_front.png,true,crafting_table_top.png
-Cyan Clay,Clay,true,159,9,hardened_clay_stained_cyan.png,false
-Cyan Wool,Wool,true,35,9,wool_colored_cyan.png,false
-Cyan Stained Glass,Special,false,95,9,glass_cyan.png,false
-Dark Oak Wood,Rare,false,162,1,log_big_oak.png,true,log_big_oak_top.png
-Dark Oak Wood Plank,Common,true,5,5,planks_big_oak.png,false
-Dark Prismarine,Rare,true,168,2,prismarine_dark.png,false
-Diamond,Rare,false,57,-1,diamond_block.png,false
-Diamond Ore,Special,false,56,-1,diamond_ore.png,false
-Diorite,Common,true,1,3,stone_diorite.png,false
-Dirt,Common,true,3,0,dirt.png,false
-Emerald Ore,Special,false,129,-1,emerald_ore.png,false
-Emerald,Rare,false,133,-1,emerald_block.png,false
-End Stone,Rare,false,121,-1,end_stone.png,false
-Glowstone Block,Unusual,false,89,-1,glowstone.png,false
-Gold,Rare,true,41,-1,gold_block.png,false
-Gold Ore,Unusual,false,14,-1,gold_ore.png,false
-Granite,Common,true,1,1,stone_granite.png,false
-Gravel,Common,false,13,-1,gravel.png,false
-Gray Clay,Clay,true,159,7,hardened_clay_stained_gray.png,false
-Gray Wool,Wool,true,35,7,wool_colored_gray.png,false
-Gray Stained Glass,Special,false,95,7,glass_gray.png,false
-Green Clay,Clay,true,159,13,hardened_clay_stained_green.png,false
-Green Wool,Wool,true,35,13,wool_colored_green.png,false
-Green Stained Glass,Special,false,95,13,glass_green.png,false
-Hardened Clay,Clay,true,172,-1,hardened_clay.png,false
-Hay,Unusual,false,170,-1,hay_block_side.png,true,hay_block_top.png
-Iron,Rare,true,42,-1,iron_block.png,false
-Iron Ore,Unusual,false,15,-1,iron_ore.png,false
-Jukebox,Unusual,false,84,0,jukebox_side.png,true,jukebox_top.png
-Jungle Wood,Rare,false,17,3,log_jungle.png,true,log_jungle_top.png
-Jungle Wood Plank,Common,true,5,3,planks_jungle.png,false
-Lapis Lazuli Ore,Special,false,21,-1,lapis_ore.png,false
-Lapis Lazuli Block,Rare,false,22,-1,lapis_block.png,false
-Light Blue Clay,Clay,true,159,3,hardened_clay_stained_light_blue.png,false
-Light Blue Wool,Wool,true,35,3,wool_colored_light_blue.png,false
-Light Blue Stained Glass,Special,false,95,3,glass_light_blue.png,false
-Light Gray Wool,Wool,true,35,8,wool_colored_silver.png,false
-Light Gray Stained Glass,Special,false,95,8,glass_silver.png,false
-Lime Clay,Clay,true,159,5,hardened_clay_stained_lime.png,false
-Lime Wool,Wool,true,35,5,wool_colored_lime.png,false
-Lime Stained Glass,Special,false,95,5,glass_lime.png,false
-Magenta Clay,Clay,true,159,2,hardened_clay_stained_magenta.png,false
-Magenta Wool,Wool,true,35,2,wool_colored_magenta.png,false
-Magenta Stained Glass,Special,false,95,2,glass_magenta.png,false
-Melon,Unusual,false,103,-1,melon_side.png,true,melon_top.png
-Moss Stone,Rare,false,48,-1,cobblestone_mossy.png,false
+Stone Brick,Common,true,98,0,stonebrick.png,false
 Mossy Stone Brick,Rare,false,98,1,stonebrick_mossy.png,false
+Cracked Stone Brick,Rare,false,98,2,stonebrick_cracked.png,false
+Moss Stone,Rare,false,48,-1,cobblestone_mossy.png,false
+Wood Plank,Common,true,5,0,planks_oak.png,false
+Bricks,Rare,false,45,-1,brick.png,false
+Stone,Common,true,1,0,stone.png,false
+Dirt,Common,true,3,0,dirt.png,false
+Clay Block,Clay,false,82,-1,clay.png,false
+Sandstone,Common,true,24,0,sandstone_normal.png,true,sandstone_top.png
+Chiseled Sandstone,Common,true,24,1,sandstone_carved.png,true,sandstone_top.png
+Smooth Sandstone,Common,true,24,2,sandstone_smooth.png,true,sandstone_top.png
+Sand,Common,false,12,0,sand.png,false
+Andesite,Common,true,1,5,stone_andesite.png,false
+Wood,Common,true,17,0,log_oak.png,true,log_oak_top.png
+Dark Oak Wood,Rare,false,162,1,log_big_oak.png,true,log_big_oak_top.png
+Birch Wood,Rare,false,17,2,log_birch.png,true,log_birch_top.png
 Nether Bricks,Rare,false,112,-1,nether_brick.png,false
-Nether Quartz Ore,Unusual,false,153,-1,quartz_ore.png,false
 Netherrack,Common,false,87,-1,netherrack.png,false
-Note Block,Unusual,false,25,-1,noteblock.png,false
-Obsidian,Rare,false,49,-1,obsidian.png,false
-Orange Clay,Clay,true,159,1,hardened_clay_stained_orange.png,false
-Orange Wool,Wool,true,35,1,wool_colored_orange.png,false
-Orange Stained Glass,Special,false,95,1,glass_orange.png,false
-Pine Wood Plank,Common,true,5,1,planks_spruce.png,false
-Pink Clay,Clay,true,159,6,hardened_clay_stained_pink.png,false
-Pink Wool,Wool,true,35,6,wool_colored_pink.png,false
-Pink Stained Glass,Special,false,95,6,glass_pink.png,false
-Podzol,Unusual,false,3,2,dirt_podzol_side.png,true,dirt_podzol_top.png
-Polished Andesite,Common,true,1,6,stone_andesite_smooth.png,false
-Polished Diorite,Common,true,1,4,stone_diorite_smooth.png,false
-Polished Granite,Common,true,1,2,stone_granite_smooth.png,false
-Prismarine,Rare,false,168,0,prismarine_rough.png,false
-Prismarine Brick,Rare,true,168,1,prismarine_bricks.png,false
-Pumpkin,Unusual,false,86,-1,pumpkin_side.png,true,pumpkin_top.png
-Purple Clay,Clay,true,159,10,hardened_clay_stained_purple.png,false
-Purple Wool,Wool,true,35,10,wool_colored_purple.png,false
-Purple Stained Glass,Special,false,95,10,glass_purple.png,false
 Quartz,Rare,false,155,0,quartz_block_side.png,false
 Quartz Pillar,Rare,false,155,2,quartz_block_lines.png,true,quartz_block_lines_top.png
-Red Clay,Clay,true,159,14,hardened_clay_stained_red.png,false
-Red Sand,Common,true,12,1,red_sand.png,false
-Red Sandstone,Common,true,179,0,red_sandstone_normal.png,true,red_sandstone_top.png
-Red Wood,Rare,false,17,1,log_spruce.png,true,log_spruce_top.png
-Red Wool,Wool,true,35,14,wool_colored_red.png,false
-Red Stained Glass,Special,false,95,14,glass_red.png,false
+Chiseled Quartz,Rare,false,155,1,quartz_block_chiseled.png,false
+Coal Ore,Special,false,16,-1,coal_ore.png,false
+Diamond Ore,Special,false,56,-1,diamond_ore.png,false
+Gold Ore,Unusual,false,14,-1,gold_ore.png,false
+Iron Ore,Unusual,false,15,-1,iron_ore.png,false
+Lapis Lazuli Ore,Special,false,21,-1,lapis_ore.png,false
 Redstone Ore,Special,false,73,-1,redstone_ore.png,false
-Redstone Block,Unusual,false,152,-1,redstone_block.png,false
-Sand,Common,false,12,0,sand.png,false
-Sandstone,Common,true,24,0,sandstone_normal.png,true,sandstone_top.png
-Silver Clay,Clay,true,159,8,hardened_clay_stained_silver.png,false
-Smooth Red Sandstone,Common,true,179,2,red_sandstone_smooth.png,true,red_sandstone_top.png
-Smooth Sandstone,Common,true,24,2,sandstone_smooth.png,true,sandstone_top.png
+Gold,Rare,true,41,-1,gold_block.png,false
+Iron,Rare,true,42,-1,iron_block.png,false
+Diamond,Rare,false,57,-1,diamond_block.png,false
+Lapis Lazuli Block,Rare,false,22,-1,lapis_block.png,false
+Obsidian,Rare,false,49,-1,obsidian.png,false
 Snow,Rare,true,80,-1,snow.png,false
-Soul Sand,Unusual,false,88,-1,soul_sand.png,false
-Sponge,Special,false,19,-1,sponge.png,false
-Stone,Common,true,1,0,stone.png,false
-Stone Brick,Common,true,98,0,stonebrick.png,false
-Stone Slab,Common,true,43,0,stone_slab_side.png,true,stone_slab_top.png
-TNT,Unusual,false,46,-1,tnt_side.png,true,tnt_top.png
-White Clay,Clay,true,159,0,hardened_clay_stained_white.png,false
-White Stained Glass,Special,false,95,0,glass_white.png,false
-Wood,Common,true,17,0,log_oak.png,true,log_oak_top.png
-Wood Plank,Common,true,5,0,planks_oak.png,false
+Glowstone Block,Unusual,false,89,-1,glowstone.png,false
+Gray Wool,Wool,true,35,7,wool_colored_gray.png,false
+Green Wool,Wool,true,35,13,wool_colored_green.png,false
+Light Blue Wool,Wool,true,35,3,wool_colored_light_blue.png,false
+Light Gray Wool,Wool,true,35,8,wool_colored_silver.png,false
+Lime Wool,Wool,true,35,5,wool_colored_lime.png,false
+Magenta Wool,Wool,true,35,2,wool_colored_magenta.png,false
+Orange Wool,Wool,true,35,1,wool_colored_orange.png,false
+Pink Wool,Wool,true,35,6,wool_colored_pink.png,false
+Purple Wool,Wool,true,35,10,wool_colored_purple.png,false
+Red Wool,Wool,true,35,14,wool_colored_red.png,false
 Wool,Wool,true,35,0,wool_colored_white.png,false
-Yellow Clay,Clay,true,159,4,hardened_clay_stained_yellow.png,false
 Yellow Wool,Wool,true,35,4,wool_colored_yellow.png,false
-Yellow Stained Glass,Special,false,95,4,glass_yellow.png,false
+Bookshelf,Unusual,false,47,-1,bookshelf.png,true,planks_oak.png
+Crafting Table,Unusual,false,58,-1,crafting_table_front.png,true,crafting_table_top.png
+TNT,Unusual,false,46,-1,tnt_side.png,true,tnt_top.png
+Melon,Unusual,false,103,-1,melon_side.png,true,melon_top.png
