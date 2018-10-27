@@ -1,4 +1,5 @@
-photo.png
-sphoto.png
+*.png
+*.jpg
+*.jpeg
 blocks/
 config.json
