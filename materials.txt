@@ -50,3 +50,6 @@ Bookshelf,Unusual,false,47,-1,bookshelf.png,true,planks_oak.png
 Crafting Table,Unusual,false,58,-1,crafting_table_front.png,true,crafting_table_top.png
 TNT,Unusual,false,46,-1,tnt_side.png,true,tnt_top.png
 Melon,Unusual,false,103,-1,melon_side.png,true,melon_top.png
+Prismarine,Unusual,false,102,-1.prismarine.png,true,prismarine.png
+Nether Bricks,Common,true,123,-1,true,nether_bricks.png
+End Portal,Rare,true,234,-1,false,end_portal.png
